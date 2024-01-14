@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyD8KS4qfX6EaO_0ftz4hIs4l0LPmwMV8d4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>68837490990</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.spotifier.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>spotifier-f60e9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spotifier-f60e9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:68837490990:ios:b836c1a99a0cd3b61cbabf</string>
+</dict>
+</plist>

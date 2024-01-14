@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "68837490990",
+    "project_id": "spotifier-f60e9",
+    "storage_bucket": "spotifier-f60e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68837490990:android:32ed5644e55dc87a1cbabf",
+        "android_client_info": {
+          "package_name": "com.example.spotifier"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpfLed7KGPYVd014aTUYkW00gT0AZycnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
