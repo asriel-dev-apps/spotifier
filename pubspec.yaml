@@ -8,26 +8,30 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
-  go_router: ^11.1.2
-  device_preview: ^1.1.0
-  flutter_riverpod: ^2.3.1
-  freezed_annotation: ^2.4.1
-  json_annotation: ^4.8.1
-  http: ^1.1.0
-  path_provider: ^2.1.1
-  sqflite: ^2.3.0
-  path: ^1.8.3
-  firebase_core: ^2.24.2
-  firebase_analytics: ^10.8.0
+  cupertino_icons:
+  go_router:
+  device_preview:
+  flutter_riverpod:
+  freezed_annotation:
+  json_annotation:
+  http:
+  path_provider:
+  sqflite:
+  path:
+  firebase_core:
+  firebase_analytics:
+  firebase_auth:
+  riverpod_annotation:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
-  build_runner: ^2.4.6
-  freezed: ^2.4.3
-  json_serializable: ^6.7.1
+  flutter_lints:
+  riverpod_generator:
+  build_runner:
+  freezed:
+  json_serializable:
+  riverpod_lint:
 
 flutter:
   uses-material-design: true

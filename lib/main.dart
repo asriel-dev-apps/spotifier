@@ -8,13 +8,16 @@ import 'package:spotifier/ui/router/app.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
-  const app = App();
-  const scope = ProviderScope(child: app);
+  // runApp 前に　binding する
+  WidgetsFlutterBinding.ensureInitialized();
 
   // Firebase の設定を読み込む
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
+  const app = App();
+  const scope = ProviderScope(child: app);
 
   // Device Preview
   Widget window = scope;

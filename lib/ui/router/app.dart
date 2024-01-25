@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:spotifier/ui/router/go_router.dart';
+import 'package:spotifier/ui/router/router.dart';
 import 'package:spotifier/ui/theme/fonts.dart';
 
 // import 'package:firebase_analytics/firebase_analytics.dart';
@@ -19,7 +19,7 @@ class App extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final router = ref.watch(goRouterProvider);
+    final router = ref.watch(routerProvider);
     return MaterialApp.router(
       builder: DevicePreview.appBuilder, // DevicePreview
       routerDelegate: router.routerDelegate, // GoRouter
@@ -27,7 +27,7 @@ class App extends ConsumerWidget {
       routeInformationProvider: router.routeInformationProvider, // GoRouter
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        fontFamily: BrandText.bodyS.fontFamily,
+        fontFamily: AppText.bodyS.fontFamily,
       ),
     );
   }
